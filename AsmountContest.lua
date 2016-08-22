@@ -53,6 +53,7 @@ end
 
 A.OnTextButtonClick = function(self)
 	UninviteUnit(self.player);
+	A.CheckMounts();
 end
 
 A.LoadAddon = function()
