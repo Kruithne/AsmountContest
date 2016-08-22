@@ -2,7 +2,7 @@
 ## Title: AsmountContest
 ## Notes: Mount Contest Assistant for Asmongold
 ## Author: Kruithne
-## Version: 1.0.0
+## Version: 1.0.1
 
 ## X-Curse-Project-ID: asmount-contest
 ## X-License: All Rights Reserved. Modifications welcome on GitHub: https://github.com/Kruithne/AsmountContest
