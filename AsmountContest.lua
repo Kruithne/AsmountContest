@@ -256,3 +256,13 @@ A.OpenFrame = function()
 	A.CreateFrame();
 	A.Frame:Show();
 end
+
+SLASH_RANDOMMOUNT1 = "/randommount";
+function SlashCmdList.RANDOMMOUNT(msg, editbox)
+	local mounts = {};
+	for i=1,GetNumCompanions("mount") do
+		tinsert(mounts,i);
+	end
+
+	CallCompanion("mount", mounts[random(#mounts)]);
+end
